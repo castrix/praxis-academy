@@ -1,0 +1,19 @@
+cd "D:\praxis-academy"
+attrib
+dir
+cls
+clear
+echo
+goto
+if
+mkdir
+ping
+move
+del
+erase
+extract
+fc
+ipconfig
+hostname
+ren
+rename
