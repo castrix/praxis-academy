@@ -5,9 +5,9 @@
 ## This is an <h2> tag
 ###### This is an <h6> tag
 ```
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
 
 # 2.Emphasis
 ```
@@ -93,7 +93,8 @@ function fancyAlert(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+``
+
 
 
 dengan 4 whitespaces
@@ -102,6 +103,7 @@ dengan 4 whitespaces
         $.facebox({div:'#foo'})
       }
     }
+
 
 # 7.Task List
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
@@ -117,7 +119,9 @@ Content in the first column | Content in the second column
 
 # 9.SHA References
 16c999e8c71134401a78d4d46435517b2271d6ac
+
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 # 10.Issue references within a repository
