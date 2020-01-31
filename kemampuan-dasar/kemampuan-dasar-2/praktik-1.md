@@ -93,9 +93,7 @@ function fancyAlert(arg) {
     $.facebox({div:'#foo'})
   }
 }
-``
-
-
+```
 
 dengan 4 whitespaces
     function fancyAlert(arg) {
