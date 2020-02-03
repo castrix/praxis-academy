@@ -5,9 +5,9 @@
 ## This is an <h2> tag
 ###### This is an <h6> tag
 ```
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an h1 tag
+## This is an h2 tag
+###### This is an h6 tag
 
 # 2.Emphasis
 ```
@@ -102,6 +102,7 @@ dengan 4 whitespaces
         $.facebox({div:'#foo'})
       }
     }
+
 
 # 7.Task List
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
