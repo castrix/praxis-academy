@@ -95,8 +95,8 @@ function fancyAlert(arg) {
 }
 ```
 
-
 dengan 4 whitespaces
+
     function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
@@ -116,13 +116,19 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 # 9.SHA References
+
 16c999e8c71134401a78d4d46435517b2271d6ac
+
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 # 10.Issue references within a repository
+
 #1
+
 mojombo#1
+
 mojombo/github-flavored-markdown#1
 
 # 11.Username @mentions
