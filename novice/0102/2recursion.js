@@ -1,8 +1,12 @@
 function isEven(nilai){
-    if (Math.abs(nilai%2)==0){
+    if(nilai==0){
         return true
-    }else{
+    }
+    else if(nilai==1){
         return false
     }
+    else{
+        return isEven(Math.abs(nilai)-2)
+    }
 }
-console.log(isEven(2))
+console.log(isEven(4))
