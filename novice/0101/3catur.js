@@ -1,11 +1,11 @@
 for(i=0;i<8;i++){
     let b="";
     for(a=0;a<8;a++){
-        if((i+a)%2){
-            b=b+"#";
+        if((i+a)%2==0){
+            b=b+" ";
         }
         else{
-            b=b+" ";
+            b=b+"#";
         }
     }
     console.log(b);
