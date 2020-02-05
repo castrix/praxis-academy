@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Hitung umur anjing</h1>
+<form>
+<p>Umur anjing:</p><input type="text" name="umur_anjing" id="umur_anjing" value="umur anjing"></input>
+<p>rasio:</p><input type="text" name="rasio" id="rasio" value="rasio"></input>
+</form>
+<button type="submit" name="hitungumur" class="hitungumur">Hitung</button>
+<div class="output1"></div>
+<h1>Hitung supply beras</h1>
+<form>
+<p>tahun:</p><input type="text" name="umur" id="umur" value="jumlah tahun"></input>
+<p>Kebutuhan perhari:</p><input type="text" id="jumlah" class="jumlah" value="kilogram per hari"></input>
+</form>
+<button type="submit" name="hitungsupply" class="hitungsupply">Hitung</button>
+<div class="output2"></div>
+<script type="text/javascript">
+let inputs=document.querySelectorAll("input");
+inputs.forEach((e)=>{e.addEventListener("click",function(){this.value="";})});
+document.querySelector(".hitungumur").addEventListener("click", function(){calculateDogAge()});
+document.querySelector(".hitungsupply").addEventListener("click", function(){calculatesupply()});
+function calculatesupply(){
+    let c= document.getElementById("umur").value;
+    let d= document.getElementById("jumlah").value;
+    if(parseInt(c)||parseInt(d)){
+        let total=c*365*d;
+        document.querySelector(".output2").innerHTML=  `Anda akan membutuhkan ${total} kg beras untuk cukup hingga ${c} tahun`;
+    }
+}
+function calculateDogAge(){
+    let a= document.getElementById("umur_anjing").value;
+    let b= document.getElementById("rasio").value;
+    if(parseInt(a)||parseInt(b)){ 
+        let total=a*b;
+        document.querySelector(".output1").innerHTML= `Umur anjingmu adalah ${total} tahun untuk umur anjing`;
+    }
+}
+</script>
+<body>
+</html>

@@ -9,4 +9,4 @@ function isEven(nilai){
         return isEven(Math.abs(nilai)-2)
     }
 }
-console.log(isEven(4))
+console.log(isEven(75))
